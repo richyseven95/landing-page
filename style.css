@@ -1,0 +1,73 @@
+@font-face {
+    font-family: Roboto;
+    src: url(/fonts/Roboto.zip);
+}
+
+body {
+    font-family: Roboto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 580px;
+    margin-right: 580px;
+}
+
+.header, 
+.hero-section, 
+.footer {
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+li {
+    list-style: none;
+}
+
+.logo {
+    font-size: 24px;
+    Color: #F9FAF8;
+    font-weight: 900;
+}
+
+h1 {
+    Font size: 48px;
+    Color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero-section p,
+.header li 
+{
+    Font size: 18px;
+    Color: #E5E7EB;
+}
+
+.cta, button {
+    background-color: #3882F6;
+}
+
+.info h2 {
+    Font-size: 36px;
+    Color: #1F2937;
+    Weight: 900;
+}
+
+.thor-quote {
+    Background color: #E5E7EB;
+    Font-size: 36px;
+    Color: #1F2937;
+    Weight: 300;
+    Font-style: italic;
+}
+
