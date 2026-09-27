@@ -40,16 +40,40 @@ li {
     font-weight: 900;
 }
 
+.hero-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    gap: 50px;
+}
+
+.hero-text {
+    width: 350px;
+}
+
+button {
+    width: 75px;
+    height: 30px;
+    color: white;
+    font-weight: 900;
+    border-radius: 8px;
+}
+
 h1 {
-    Font size: 48px;
+    Font-size: 48px;
     Color: #F9FAF8;
     font-weight: 900;
+}
+
+.quote {
+    background-color: #E5E7EB
 }
 
 .hero-section p,
 .header li 
 {
-    Font size: 18px;
+    font-size: 18px;
     Color: #E5E7EB;
 }
 
@@ -60,14 +84,14 @@ h1 {
 .info h2 {
     Font-size: 36px;
     Color: #1F2937;
-    Weight: 900;
+    font-weight: 900;
 }
 
 .thor-quote {
     Background color: #E5E7EB;
     Font-size: 36px;
     Color: #1F2937;
-    Weight: 300;
+    font-weight: 300;
     Font-style: italic;
 }
 
